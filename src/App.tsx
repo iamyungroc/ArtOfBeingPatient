@@ -183,6 +183,36 @@ export default function App() {
         </div>
       </section>
 
+      {/* About / Description Section */}
+      <section className="py-20 md:py-28 px-6 bg-white/50">
+        <div className="max-w-3xl mx-auto">
+          <ScrollReveal>
+            <div className="text-center">
+              <span className="text-sm uppercase tracking-[0.3em] text-emerald-600 font-sans">About</span>
+              <h2 className="text-3xl md:text-4xl font-light mt-4 mb-8 text-stone-700">
+                About This Experience
+              </h2>
+              <div className="w-16 h-px bg-emerald-300 mx-auto mb-8" />
+              <p className="text-lg text-stone-600 leading-relaxed mb-6">
+                <strong className="text-stone-700">The Art of Being Patient</strong> is a mindful digital experience
+                designed to slow you down in a world that never stops moving. Through curated wisdom,
+                guided breathing exercises, and timeless reflections, this space invites you to pause,
+                breathe, and reconnect with the quiet strength that patience offers.
+              </p>
+              <p className="text-lg text-stone-600 leading-relaxed mb-6">
+                Whether you're seeking a moment of calm, looking to build a patience practice,
+                or simply need a reminder that good things take time — you've arrived at the right place.
+                Explore the philosophy of patience, learn practical techniques for cultivating it in daily life,
+                and carry the wisdom forward.
+              </p>
+              <p className="text-stone-500 italic">
+                Take your time here. There's no rush.
+              </p>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* Philosophy Section */}
       <section className="py-24 md:py-32 px-6">
         <div className="max-w-4xl mx-auto">
