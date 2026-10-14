@@ -340,9 +340,15 @@ export default function App() {
             A reminder that the most beautiful things in life unfold in their own time.
           </p>
           <div className="mt-8 pt-8 border-t border-stone-700">
-            <p className="text-stone-500 text-xs">
+            <p className="text-stone-500 text-xs mb-4">
               Made with patience and care
             </p>
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-stone-400 text-sm">Created By</span>
+              <span className="text-white font-semibold text-lg tracking-wide">RocAudio</span>
+              <span className="text-emerald-400 text-xs font-bold align-super">™</span>
+            </div>
+            <p className="text-stone-500 text-xs mt-2 tracking-wider uppercase">Tech Company</p>
           </div>
         </div>
       </footer>
